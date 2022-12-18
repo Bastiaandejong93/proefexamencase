@@ -1,0 +1,1 @@
+Aantal_personen=int(input("Hoeveel personen bestellen?: "))
