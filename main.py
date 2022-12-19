@@ -1,3 +1,8 @@
+#Opties=['Kleine friet 2.20','Middel friet 2.50','Grote friet 3.00']
+#Extras=['Speciaal+ 1','Stoofvleessaus + 1.8','Geen extras']
+#Saus=['Op de frieten of Klein bakje + 0.5','Groot bakje + 0.8','Geen saus']
+#Snacks=['Hamburger(Frikandel) Boulet Mexicano Servola 2.30','Kipnuggets Fingers 2.50','Bicky burger 3,20','Geen snack']
+
 Opties=('Kleine friet','Middel friet','Grote friet')
 Extras=['Speciaal','Stoofvleessaus','Geen extras']
 Saus=['Op de frieten of Klein bakje','Groot bakje','Geen saus']
@@ -62,16 +67,6 @@ keuze=input()
         else:
         print('Foute invoer! Kies uit volgende opties: g1/g2/g3/Stop', Snacks)
 else:  print('Foute invoer! Wil je Snacks erbij?: Ja/Nee: ')
-
-
-
-
-
-
-
-
-
-print('€',sum(Factuur),'incl. BTW')
 
 
 
